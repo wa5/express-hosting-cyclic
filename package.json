@@ -2,10 +2,10 @@
   "name": "express-hosting-cyclic",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "app.ts",
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js"
+    "start": "node app.ts",
+    "dev": "nodemon app.ts"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +15,7 @@
     "nodemon": "^3.1.0"
   },
   "devDependencies": {
-    "@types/node": "^20.11.30"
+    "@types/node": "^20.11.30",
+    "typescript": "^5.4.2"
   }
 }
